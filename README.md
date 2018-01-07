@@ -1,31 +1,38 @@
 # FeSafe
+Overview:
 
-FeSafe
-FeSafe (female safety) is an application which can help women in case of distress and empower them.
+Presenting an application which can cater for women in distress.
 
-This application will be relevant in different situations depending on the type of emergency.
+With wide ranging features and highly scalable structure FeSafe makes sure that you get the comfort you deserve.
 
-Features
-Ride hailing applications : The location will be shared with selected contacts while using Uber, Ola, RedBus etc.
+Features:
+SOS button: When activated it switches on a siren and sends a text message to some selected contacts. This can be useful in a lot of emergencies.
 
-Safe spot location : This will immediately point out all the safe locations nearby, for example police stations.
+Nearest hospitals and police stations: The user’s location is detected by the application and a list of hospitals and police stations is sent to the user. 
 
-SOS alarm : This will trigger a siren and send distress calls to specific contacts and NCW (National Commission for Women).
+Share your grievances: This would allow a person to send any kind of complaint to a fixed set of Email addresses.
 
-Cyber bullying prevention : The application will scan for harmful content and point it out before the user posts it on social media.
+Helpline: This feature lists out a lot of websites/numbers of NGOs and government which are committed to women’s safety. 
 
-Awareness updates : The application will be informing the user about policies and laws related to women safety and raise awareness, on daily basis.
+Notifications based on location: Based on user’s location, notifications are sent covering the major news articles of nearby places. This news is updated periodically. News is scraped from leading news websites.
 
-Scope for improvement
-There is scope for decreasing cyber bullying. For example sensitive and offensive data can be blocked.
+Tip of the day: This feature will help in increasing the general awareness of an individual. These tips can cover a wide range of topics.
 
-The application can be evolved to form a platform for women alone.
 
-A feature can be added which can connect to all the people around having the same application nearby and contact them as well in case of emergency.
+Scope for improvement:
+Need to extend this application to more platforms like iOS and Windows devices
 
-How to run:
+Adding additional features to make an entire women-centric platform
+
+Making a web API for the application
+
+**How to run:**
 Clone the github repository into your desktop
+
 The news.py Python file inside sources/scraping is used to scrape the news from the current city location and this is written into the news.txt file
+
 The c++ file process.cpp opens the tips.txt file and reads them based on the current day. The current day tip is then written into tipoftheday.txt
+
 Execute these 2 files to stay updated on the information
+
 To run the app install the .apk file or open the project in android studio and create an apk

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="left">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="donate"
+        android:textAllCaps="true"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WE"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here at WE, we are doing what the rest of the country says is impossible: we are ending homelessness for women and children–for good."
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="donate"
+        android:id="@+id/b1"/>
+
+    <View
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARE"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARE is committed to uncovering and transforming the political, social and economic relationships at the heart of poverty"
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="donate"
+        android:id="@+id/b2"/>
+    <Button
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Donate to FeSafe"
+        android:id="@+id/b3"/>
+
+</LinearLayout>

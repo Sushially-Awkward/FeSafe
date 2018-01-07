@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/sos" />
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="185dp"
+            android:id="@+id/policeStation"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/police"
+            android:onClick="findPoliceStations" />
+
+
+        <Button
+            android:id="@+id/hospital"
+            android:layout_marginLeft="46dp"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:background="@drawable/hospital"
+            android:onClick="findHospitals" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:onClick="buttonClickFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share your grievance"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dfcF"
+        android:text="Donate for a cause" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="hlpF"
+        android:text="Helpline" />
+
+
+
+</LinearLayout>
