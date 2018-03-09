@@ -36,3 +36,7 @@ The c++ file process.cpp opens the tips.txt file and reads them based on the cur
 Execute these 2 files to stay updated on the information
 
 To run the app install the .apk file or open the project in android studio and create an apk
+
+**Contributors:**
+M Naveen Kumar
+Dibyadarshan Hota
